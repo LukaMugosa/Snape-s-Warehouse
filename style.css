@@ -1,0 +1,83 @@
+.heading{
+    margin: auto;
+    width: 500px;
+    text-align: center;
+    color:#000000;
+    background-color:  rgba(55, 48, 48, .61);
+    border: 3px solid #4B4453;
+    border-radius: 25px;
+}
+body{
+    background-image: url(http://images5.fanpop.com/image/polls/1069000/1069210_1341601050094_full.jpg?v=1341600971);
+}
+.forma1{
+    margin: auto;
+    width: 500px;
+    margin-top: 80px;
+    border: 3px solid  #4B4453;
+    text-align: center;
+    color:#000000;
+    background-color:  rgba(55, 48, 48, .61);
+    border-radius: 25px;
+    padding-bottom: 10px;
+    user-select: none;
+}
+#inputStyle{
+    border: 2px solid #000000;
+    background-color: grey;
+    border-radius: 25px;
+    margin-bottom: 20px;
+    width: 350px;
+    height: 35px;
+}
+::placeholder{
+    text-align: center;
+    font-weight: bold;
+    color: black;
+    opacity: 0.7;
+    font-size: 17px;
+}
+p{
+    font-weight: bold;
+    color: black;
+}
+span{
+    color: green;
+}
+#lgn{
+    border-bottom: 2px solid #4B4453;
+    border-radius: 25px 25px 0px 0px;
+    background-color: rgba(51, 153, 51, .61);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+.dugme{
+    width: 250px;
+    margin-bottom: 15px;
+}
+.forma2{
+    margin: auto;
+    width: 500px;
+    margin-top: 100px;
+    border: 3px solid  #4B4453;
+    border-radius: 25px;
+    text-align: center;
+    background-color:  rgba(55, 48, 48, .61);
+}
+#heading2{
+    font-size: 25px;
+    color: black;
+    font-weight: bold;
+    border-bottom: 2px solid #4B4453;
+    border-radius: 25px 25px 0px 0px;
+    background-color: rgba(51, 153, 51, .61);
+    margin-bottom: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.errors{
+    color: red;
+    font-weight: bold;
+}
