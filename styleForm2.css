@@ -115,3 +115,45 @@ td{
     border-bottom: 3px solid green;
 }
 
+.suggest{
+    margin: auto;
+    margin-top: 20px;
+    border: 3px solid green;
+    border-radius: 25px;
+    width: 25%;
+    background-color: rgba(55, 48, 48, .61);
+    
+}
+input{
+    border: 2px solid #000000;
+    background-color: grey;
+    border-radius: 25px;
+    margin-bottom: 20px;
+    width: 200px;
+    height: 35px;
+}
+::placeholder{
+    text-align: center;
+    font-weight: bold;
+    color: black;
+    opacity: 0.7;
+    font-size: 15px;
+}
+textarea{
+    border: 2px solid black;
+    border-radius: 25px;
+    padding: 5px;
+    background-color: grey;
+
+}
+button{
+    margin-left: 28px;
+    background-color: green;
+    border-radius: 25px;
+    border: 3px solid green;
+    margin-bottom: 5px;
+    width: 70%;
+}
+label{
+    margin: auto;
+}
