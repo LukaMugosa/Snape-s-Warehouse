@@ -6,12 +6,15 @@ require_once "Recipe.php";
 require_once "RecipesRepository.php";
 require_once "../ingredients/Ingredient.php";
 require_once "../ingredients/IngredientRepository.php";
-
+require_once "../recipe_ingredient/RecipeIngredientRepository.php";
 
 $recRepo = new RecipesRepository($db);
 $recipe = $recRepo->find($_GET['recipe_id']);
-$ingredRepo = new IngredientRepository($db);
-//$ingredients = $ingredRepo->getAllIngredients();
+// $ingredRepo = new IngredientRepository($db);
+// $recIngredRepo = new RecipeIngredientRepository($db);
+// $array = $recIngredRepo->find($_GET['recipe_id']);
+// var_dump($array);
+// $ingredients = $ingredRepo->getAllIngredients($array);
 
 
 if(is_null($recipe)){
